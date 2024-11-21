@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: brown;
+  padding: 1rem;
+  color: #fff;
+}
+
+.pesan {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.pesan .pesanContainer {
+  display: flex;
+  border-radius: 1rem;
+  margin: auto;
+  flex-direction: column;
+  width: 50%;
+  background-color: aqua;
+  padding: 2rem;
+}
+
+.pesan .user02 {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.pesan .user01 {
+  text-align: start;
+}
+
+.user {
+  display: flex;
+  justify-content: space-evenly;
+}
